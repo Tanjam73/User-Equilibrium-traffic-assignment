@@ -42,3 +42,6 @@ plot(conv, yscale=:log10, xlabel="Iteration", ylabel="Relative Gap (log scale)",
      title="Convergence Plot", legend=false)
 savefig("convergence_plot.png")
 println("Convergence plot saved as convergence_plot.png")
+
+
+#cd("C:\\Users\\jambh\\.vscode\\juliaproject\\sioux")

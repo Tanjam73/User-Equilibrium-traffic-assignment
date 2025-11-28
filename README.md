@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/github/Tanjam73/User-Equilibrium-by-Frank-Wolfe/graph/badge.svg?token=VNECSG69BN)](https://codecov.io/github/Tanjam73/User-Equilibrium-by-Frank-Wolfe)
 # Sioux Falls User Equilibrium Solver (Julia)
 
 Implemented a full User Equilibrium traffic assignment for the Sioux Falls network using the **Frank–Wolfe algorithm** with a **Dijkstra-based All-or-Nothing (AON)** shortest path assignment.

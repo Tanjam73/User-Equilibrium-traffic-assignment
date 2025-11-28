@@ -78,7 +78,7 @@ function aon_assign(net::Dict{Int,Vector{Link}},
     m = length(edges)
     y = zeros(m)
 
-    # Quick lookup (u,v) → edge index
+    # Quick lookup (u,v) to edge index
     uv_to_eid = Dict{Tuple{Int,Int},Int}()
     for (eid, (u, pos)) in enumerate(edges)
         v = net[u][pos].head
